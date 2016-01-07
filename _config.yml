@@ -1,28 +1,40 @@
-name: Picture Unit
 favicon: null
-layout_spectrum: 0.6468948479741812
-typography_spectrum: 0.7156089751515538
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Picture Unit
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
-  brandStrength: 0.46139982831664383
-  lightness: 0.2751816955860704
-  saturation: 0.43801734084263444
-  rhythmicContrast: 0.7154200088698417
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.4380173408426344
+  brandStrength: 0.4613998283166438
+  lightness: 0.2751816955860704
+  brandColors:
+    - '#EACEAA'
+    - '#30211E'
+    - '#EA9164'
+    - '#FFFDFA'
+    - '#434D6E'
+  rhythmicContrast: 0.7154200088698417
+typography_spectrum: 0.09780776
+layout_spectrum: 0.5767285
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
