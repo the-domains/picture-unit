@@ -19,7 +19,7 @@ collections:
 purpose: []
 color:
   saturation: 0.4380173408426344
-  brandStrength: 0.4613998283166438
+  brandStrength: 0.4139966
   lightness: 0.2751816955860704
   brandColors:
     - '#EACEAA'
@@ -30,11 +30,11 @@ color:
   rhythmicContrast: 0.7154200088698417
 typography_spectrum: 0.09780776
 layout_spectrum: 0.5767285
-analytics:
-  twitter: null
-  google: null
-  facebook: null
 cta:
   bucket: null
   version: null
   domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
